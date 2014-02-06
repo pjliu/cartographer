@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Events</name>
+	<StyleMap id="msn_grn-diamond">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-diamond</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sn_grn-diamond</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_grn-diamond">
+		<IconStyle>
+			<scale>1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-diamond.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+		<Placemark>
+			<name>Symons Hall</name>
+			<description>
+				<![CDATA[
+					Upcoming events:<br />
+					8:00pm  - The power of manure (Room 102)
+				]]>
+			</description>
+			<styleUrl>#msn_grn-diamond</styleUrl>
+			<Point>
+				<coordinates>-76.94065000000001,38.987095,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Human-Computer Interaction Lab</name>
+			<description>
+				<![CDATA[
+					Upcoming events:<br />
+					7:00 - Light up t-shirt contest
+				]]>
+			</description>
+			<styleUrl>#msn_grn-diamond</styleUrl>
+			<Point>
+				<coordinates>-76.94172399999999,38.988293,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Geology Building</name>
+			<description>
+				<![CDATA[
+					Upcoming events:<br />
+					6:00pm - Why rocks are cool!!! (Room 302)
+				]]>
+			</description>
+			<styleUrl>#msn_grn-diamond</styleUrl>
+			<Point>
+				<coordinates>-76.942308,38.990855,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Adele H. Stamp Student Union Building</name>
+			<description>
+			<![CDATA[
+				Upcoming events:<br />
+				6:00pm - Free tacos @ Taco Bell<br />
+				7:00pm - Movie (Iron Man 3)<br />
+				<a href="test.php">Navigate</a>
+			]]>
+			</description>
+			<styleUrl>#msn_grn-diamond</styleUrl>
+			<Point>
+				<coordinates>-76.94491733141443,38.98783329697648,0</coordinates>
+			</Point>
+		</Placemark>
+</Document>
+</kml>

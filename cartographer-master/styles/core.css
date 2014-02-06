@@ -1,0 +1,57 @@
+html, body {
+	height: 100%;
+}
+
+#map_content {
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#map {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	text-shadow: none;
+	line-height:normal;
+}
+
+.ui-mobile .ui-page {
+	height: 100%;
+}
+
+#nav-footer label {
+	position: relative;
+	top: -4px;
+	display: inline;
+}
+
+#search-popup, #favorites-popup {
+	width: 100%;
+}
+
+.gm-style-iw  {
+	color: #333333;
+}
+
+.gm-style-iw .businfo {
+	width: 125px;
+	height: 100px;
+}
+
+.gm-style-iw .eventinfo {
+	width: 210px;
+	height: 200px;
+}
+
+
+.gm-style-iw .placesinfo {
+	width: 220px;
+	height: 175px;
+}
+
+.gm-style-iw .currloc {
+	width: 80;
+	height: 20px;
+}
